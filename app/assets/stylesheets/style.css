@@ -143,3 +143,28 @@ label.contact-text {
   letter-spacing: 2px;
   left: 10px;
 }
+
+/* Button contact*/
+
+.button {
+    background-color: white; /* Green */
+    border: none;
+    color: ;
+    border-radius: 30px;
+    padding: 6px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button1 {
+    background-color: ;
+    color: ;
+    border: px solid gray;
+}
