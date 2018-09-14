@@ -1,0 +1,121 @@
+@charset "UTF-8";
+
+
+ul#album li#photo05 {
+  background: url('../images/youandme/euvc.jpg') no-repeat;
+}
+ul#album li#photo05:hover {
+  background-position: 0px 0px;
+  background-size: 200px 200px;
+}
+
+ul#album li#photo06 {
+  background: url('../images/youandme/euvc2.jpg') no-repeat;
+}
+ul#album li#photo06:hover {
+  background-position: 0px 0px;
+  background-size: 200px 200px;
+}
+ul#album li#photo07 {
+  background: url('../images/youandme/euvc3.jpg') no-repeat;
+}
+ul#album li#photo07:hover {
+  background-position: 0px 0px;
+  background-size: 200px 200px;
+}
+
+ul#album li#photo08 {
+  background: url('../images/youandme/euvc4.jpg') no-repeat;
+}
+ul#album li#photo08:hover {
+  background-position: 0px 0px;
+  background-size: 200px 200px;
+}
+
+ul#album li#photo09 {
+  background: url('../images/youandme/euvc5.jpg') no-repeat;
+}
+ul#album li#photo09:hover {
+  background-position: 0px 0px;
+  background-size: 200px 200px;
+}
+
+ul#album li#photo10 {
+  background: url('../images/youandme/euvc6.jpg') no-repeat;
+}
+ul#album li#photo10:hover {
+  background-position: 0px 0px;
+  background-size: 200px 200px;
+}
+
+ul#album li#photo11 {
+  background: url('../images/youandme/euvc7.jpg') no-repeat;
+}
+ul#album li#photo11:hover {
+  background-position: 0px 0px;
+  background-size: 200px 200px;
+}
+
+ul#album li#photo12 {
+  background: url('../images/youandme/euvc8.jpg') no-repeat;
+}
+ul#album li#photo12:hover {
+  background-position: 0px 0px;
+  background-size: 200px 200px;
+}
+
+ul#album li#photo13 {
+  background: url('../images/youandme/euvc9.jpg') no-repeat;
+}
+ul#album li#photo13:hover {
+  background-position: 0px 0px;
+  background-size: 200px 200px;
+}
+
+ul#album li#photo14 {
+  background: url('../images/youandme/euvc13.jpg') no-repeat;
+}
+ul#album li#photo14:hover {
+  background-position: 0px 0px;
+  background-size: 200px 200px;
+}
+
+ul#album li#photo15 {
+  background: url('../images/youandme/euvc14.jpg') no-repeat;
+}
+ul#album li#photo15:hover {
+  background-position: 0px 0px;
+  background-size: 200px 200px;
+}
+
+ul#album li#photo16 {
+  background: url('../images/youandme/euvc12.jpg') no-repeat;
+}
+ul#album li#photo16:hover {
+  background-position: 0px 0px;
+  background-size: 200px 200px;
+}
+
+ul#album li#photo17 {
+  background: url('../images/youandme/euvc10.jpg') no-repeat;
+}
+ul#album li#photo17:hover {
+  background-position: 0px 0px;
+  background-size: 200px 200px;
+}
+
+ul#album li#photo18 {
+  background: url('../images/youandme/euvc11.jpg') no-repeat;
+}
+ul#album li#photo18:hover {
+  background-position: 0px 0px;
+  background-size: 200px 200px;
+}
+
+ul#album li#photo19 {
+  background: url('../images/youandme/euvc15.jpg') no-repeat;
+}
+ul#album li#photo19:hover {
+  background-position: 0px 0px;
+  background-size: 200px 200px;
+}

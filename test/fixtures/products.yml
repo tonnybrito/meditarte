@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  nome: MyString
+  preço: 
+  descrição: MyText
+  inclusão: 2018-09-12 13:54:47
+  situação: MyString
+
+two:
+  nome: MyString
+  preço: 
+  descrição: MyText
+  inclusão: 2018-09-12 13:54:47
+  situação: MyString

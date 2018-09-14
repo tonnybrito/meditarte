@@ -1,0 +1,145 @@
+@charset "UTF-8";
+@font-face {
+  font-family: 'FontLogo';
+  src: url("../_fonts/bubblegum-sans-regular.otf");
+}
+@import url('https://fonts.googleapis.com/css?family=Lily+Script+One');
+
+
+
+body {
+  background-color: white !important;
+  padding: 10px 10px 10px 10px;
+}
+
+div#rown {
+    min-height: 700px;
+
+}
+
+
+/*Menu navbar*/
+.navbar-expand-md .navbar-collapse {
+  border-radius: 20px;
+}
+
+#navbar {
+  padding-top: 0px
+}
+
+#fontNavBar {
+  font-size: 35pt;
+  font-family: 'Lily Script One', cursive;
+  background-color: #343a40 !important;
+
+}
+
+
+a.navbar-brandx {
+  font-size: 30px;
+  line-height: 25px;
+  padding-top: 12px;
+  white-space: nowrap;
+  color: #fff !important;
+  cursor: pointer !important;
+  background: #343a40 !important;
+}
+
+div#navbarCollapse {
+  width: 200px;
+  border-radius: 0px;
+  margin-top: 10px;
+  background-color: #343a40  !important;
+}
+
+li.nav-item.active {
+  border-radius: 0px;
+  margin-top: 5px;
+}
+
+.nav-item {
+  background-color: #343a40 !important;
+}
+
+.nav-link {
+  font-size: 10pt;
+}
+
+a.nav-link {
+  height: 40px;
+  border-radius: 0px;
+}
+
+/*container principal*/
+div#rown {
+  box-shadow: 0px 0px 10px rgba(0,0,0,.3);
+  border: 1px solid white;
+  color: #606060;
+  text-shadow: 1px 1px 1px rgba(0,0,0,.4);
+}
+
+div#coluna {
+  background-color: white;
+}
+
+
+
+/*Baseboard*/
+footer.footer {
+  background-color: white !important;
+  position: relative;
+  text-align: center;
+  border-top: 1px solid lightgray;
+  font-size: 10pt;
+  top: 20px;
+  line-height: 25px;
+  height: 50px;
+}
+
+.flag {
+  width: 25px;
+  right: 23px;
+}
+
+/*form contact*/
+
+/* label color */
+.input-field label {
+  color: #000;
+}
+/* label focus color */
+.input-field input[type=text]:focus + label {
+  color: #000;
+}
+/* label underline focus color */
+.input-field input[type=text]:focus {
+  border-bottom: 1px solid #000;
+  box-shadow: 0 1px 0 0 #000;
+}
+/* valid color */
+.input-field input[type=text].valid {
+  border-bottom: 1px solid #000;
+  box-shadow: 0 1px 0 0 #000;
+}
+/* invalid color */
+.input-field input[type=text].invalid {
+  border-bottom: 1px solid #000;
+  box-shadow: 0 1px 0 0 #000;
+}
+/* icon prefix focus color */
+.input-field .prefix.active {
+  color: #000;
+}
+
+/*Text-contact*/
+div.input-field.col.s12 {
+  position: relative;
+  right:  10px;
+}
+
+label.contact-text {
+  font-size: 10pt;
+  font-family: 'Lily Script One', cursive;
+  letter-spacing: 2px;
+  left: 10px;
+}
