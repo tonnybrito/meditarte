@@ -6,14 +6,14 @@
   <header>
     <!-- Fixed navbar -->
     <nav id="fontNavBar" class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-      <a class="navbar-brandx" href="#">MeditArte</a>
+      <a class="navbar-brandx" href="#">Peixe Fresco</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarCollapse">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link" <%= link_to 'home', home_index_path %>
+            <a class="nav-link" href="/home/index">Home</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Disabled</a>
@@ -23,7 +23,7 @@
     </nav>
   </header>
   <body>
-    <div id="rown" class="container">
+    <div id="image_container" class="container">
 
       <main>
         <div class="container">
@@ -58,17 +58,12 @@
                   <label class="contact-text" for="textarea1">Insert text</label>
                 </div>
               </div>
-              <center><button class="btn waves-effect waves-light">Enviar --> </button></center>
+              <center><button class="btn">Enviar --> </button></center>
             </form>
           </div>
         </div>
       </main>
     </div>
   </body>
-  <footer class="footer">
-    <div class="container_footer">
-      <span class="text-muted">&copy; Copyright 2018 - Development Tonny Brito</span><br>
-      <span class="text-muted"><img class="flag" src="https://lipis.github.io/flag-icon-css/flags/4x3/br.svg" alt="Brazil Flag">  Devlandia - Curitiba - Br  <img class="flag" src="https://lipis.github.io/flag-icon-css/flags/4x3/br.svg" alt="Brazil Flag"></span>
-    </div>
-  </footer>
+  
 </html>

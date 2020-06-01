@@ -5,16 +5,24 @@
 }
 @import url('https://fonts.googleapis.com/css?family=Lily+Script+One');
 
-
-
 body {
-  background-color: white !important;
+  background-color: #EEE7AD !important;
   padding: 10px 10px 10px 10px;
 }
 
-div#rown {
-    min-height: 700px;
+.container_footer{
+  background-color: #EEE7AD !important;
+  padding: 10px 10px 10px 10px;
+}
 
+#image_container {
+   background: url('mar_azul') no-repeat;
+   background-size: 100% 100%;
+   box-shadow: 0px 0px 10px rgba(0,0,0,.3);
+  border: 1px solid lightblue;
+  color: #606060;
+  text-shadow: 1px 1px 1px rgba(0,0,0,.4);
+  border-radius: 5px !important;
 }
 
 
@@ -30,7 +38,7 @@ div#rown {
 #fontNavBar {
   font-size: 35pt;
   font-family: 'Lily Script One', cursive;
-  background-color: #343a40 !important;
+  background-color: #6495ED  !important;
 
 }
 
@@ -39,17 +47,25 @@ a.navbar-brandx {
   font-size: 30px;
   line-height: 25px;
   padding-top: 12px;
+  padding-right: 5px;
   white-space: nowrap;
   color: #fff !important;
   cursor: pointer !important;
-  background: #343a40 !important;
+  background: #6495ED !important;
+  font-style: italic;
+  font-weight: bold;
+  font-family: 'jaz let fantasy';
+
 }
+a.navbar-brandx:link {
+    text-decoration: none; 
+} 
 
 div#navbarCollapse {
   width: 200px;
   border-radius: 0px;
   margin-top: 10px;
-  background-color: #343a40  !important;
+  background-color: #6495ED  !important;
 }
 
 li.nav-item.active {
@@ -58,7 +74,7 @@ li.nav-item.active {
 }
 
 .nav-item {
-  background-color: #343a40 !important;
+  background-color: #6495ED !important;
 }
 
 .nav-link {
@@ -70,12 +86,53 @@ a.nav-link {
   border-radius: 0px;
 }
 
+.navbar-expand-md {
+
+  min-height: 35px;
+}
+
+
+li.nav-item.active {
+  position: relative;
+  background-color: #6495ED !important;
+  padding-top: -10px;
+  padding-left: 5px;
+  border-radius: 20px
+
+}
+li.nav-item {
+
+  padding-left: 5px;
+}
+
+.navbar-brand {
+  padding-top: 0rem;
+}
+
+div#rown.container {
+margin-top: 40px;
+}
+
+.navbar-nav {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0px;
+    list-style: none;
+    list-style-type: none;
+    line-height: 25px;
+}
+
+
 /*container principal*/
 div#rown {
   box-shadow: 0px 0px 10px rgba(0,0,0,.3);
   border: 1px solid white;
   color: #606060;
   text-shadow: 1px 1px 1px rgba(0,0,0,.4);
+  min-height: 700px;
 }
 
 div#coluna {
@@ -86,10 +143,9 @@ div#coluna {
 
 /*Baseboard*/
 footer.footer {
-  background-color: white !important;
+  background-color: #EEE7AD !important;
   position: relative;
   text-align: center;
-  border-top: 1px solid lightgray;
   font-size: 10pt;
   top: 20px;
   line-height: 25px;
@@ -163,8 +219,3 @@ label.contact-text {
     cursor: pointer;
 }
 
-.button1 {
-    background-color: ;
-    color: ;
-    border: px solid gray;
-}

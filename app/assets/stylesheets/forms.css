@@ -1,51 +1,23 @@
 
-.navbar-expand-md {
-
-  min-height: 35px;
-}
-a.nav-link {
- height: 45px;
 
 
-}
-
-li.nav-item.active {
-  position: relative;
-  background-color: #4C4C4CFF;
-  padding-top: -10px;
-  padding-left: 5px;
-   border-radius: 20px
-
-}
-li.nav-item {
-
-  padding-left: 5px;
-}
-
-.navbar-brand {
-  padding-top: 0rem;
-}
-
-div#rown.container {
-margin-top: 40px;
-}
-
-.navbar-nav {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    padding-left: 0;
-    margin-bottom: 0px;
-    list-style: none;
-    list-style-type: none;
-    line-height: 25px;
-}
 
 .input-field label {
     color: #071395;
 }
+label.contact-text.active {
+  color: yellow !important;
+}
 
 .material-icons prefix {
   background-color: green;
+}
+
+/*Button page Contact*/
+button.btn {
+  background-image: url('diversos/areiapraia') !important;
+  border: 2px solid #c68c53 !important;
+  border-radius: 15px !important;
+  color: #604020 !important;
+  font-weight: bold !important;
 }

@@ -6,40 +6,37 @@
   <header>
     <!-- Fixed navbar -->
     <nav id="fontNavBar" class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-      <a class="navbar-brandx" href="#">MeditArte</a>
+      <a class="navbar-brandx" href="#">Peixe Fresco</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarCollapse">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only"></span></a>
-          </li>
-          <li class="nav-item active">
             <a class="nav-link" href="/admin">Admin</a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" <%= link_to 'Contact', home_contact_path %>
+            <a class="nav-link" href="/home/contact">Contact</a> 
           </li>
         </ul>
       </div>
     </nav>
   </header>
   <body>
-    <div id="rown" class="container">
+    <div id="image_container" class="container">
 
       <main>
-        <div class="container">
+        <div class="container" >
           <div class="row">
             <div id="left" class="col s6">
 
 
               <ul id="album">
                  <span id="text-family">Nossos Produtos </span><br><br>
-                <a href="youandme.html"><li id="photo02"><span  class="test">Pingentes / Aneis</span></li></a>
-                <a href="travelsint.html"><li id="photo01"><span>Brincos / Tornozeleiras</span></li></a>
-                <a href="travelsnac.html"><li id="photo04"><span>Outros Produtos</span></li></a>
-                <a href="wechildren.html"><li id="photo03"><span>Conjuntos</span></li></a>
+                <a href="admin_product"><li id="photo02"><span  id="text-photos">Peixes</span></li></a>
+                <a href="travelsint.html"><li id="photo01"><span id="text-photos">Camarões</span></li></a>
+                <a href="travelsnac.html"><li id="photo04"><span id="text-photos">Outros Produtos</span></li></a>
+                <a href="wechildren.html"><li id="photo03"><span id="text-photos">Filés de peixe</span></li></a>
 
               </ul>
             </div>
@@ -77,10 +74,5 @@
 
     </div>
   </body>
-  <footer class="footer">
-    <container_footer>
-      <span class="text-muted">&copy; Copyright 2018 - Development Tonny Brito</span><br>
-      <span class="text-muted"><img class="flag" src="https://lipis.github.io/flag-icon-css/flags/4x3/br.svg" alt="Brazil Flag"> Devlandia - Curitiba - Br <img class="flag" src="https://lipis.github.io/flag-icon-css/flags/4x3/br.svg" alt="Brazil Flag"></span>
-    </container>
-  </footer>
+  
 </html>
